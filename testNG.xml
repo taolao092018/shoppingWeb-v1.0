@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "shoppingWeb">
+    <listeners>
+        <listener class-name="shoppingWeb.utilities.report.TestListener"/>
+    </listeners>
+    <test name = "shoppingWeb Test on Chrome">
+        <parameter name ="browser" value = "chrome"></parameter>
+        <classes>
+            <class name = "shoppingWeb.testCases.TC_LoginTest_001"/>
+        </classes>
+    </test>
+    <test name = "shoppingWeb Test on Firefox">
+        <parameter name ="browser" value = "firefox"></parameter>
+        <classes>
+            <class name = "shoppingWeb.testCases.TC_LoginTest_002"/>
+        </classes>
+    </test>
+</suite>
