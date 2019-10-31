@@ -34,6 +34,7 @@ public class LoginPage {
     @FindBy(id = "Signin")
     @CacheLookup
     WebElement btnSignin;
+    //@FindBy(xpath = "//*[@id=\"AMS_Login\"]")
     @FindBy(xpath = "//*[@id=\"AMS_Login\"]")
     @CacheLookup
     WebElement linkLoginRegister;

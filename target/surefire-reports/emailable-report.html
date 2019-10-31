@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">shoppingWeb</th></tr>
+<tr><td><a href="#t0">shoppingWeb Test on Chrome</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,871</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">shoppingWeb Test on Firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">22,767</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">37,638</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">shoppingWeb</th></tr></tbody><tbody id="t0"><tr><th colspan="4">shoppingWeb Test on Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">shoppingWeb.testCases.TC_LoginTest_001</td><td><a href="#m0">signinTest</a></td><td rowspan="1">1572491744720</td><td rowspan="1">366</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">shoppingWeb Test on Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">shoppingWeb.testCases.TC_LoginTest_002</td><td><a href="#m1">signinTest_002</a></td><td rowspan="1">1572491759812</td><td rowspan="1">6250</td></tr></tbody>
+</table>
+<h2>shoppingWeb Test on Chrome</h2><h3 id="m0">shoppingWeb.testCases.TC_LoginTest_001#signinTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;AMS_Login&quot; style=&quot;display: inline;&quot; href=&quot;/login&quot;&gt;...&lt;/a&gt; is not clickable at point (894, 14). Other element would receive the click: &lt;div class=&quot;ppt&quot; style=&quot;opacity: 0.0221035; display: block; width: 780px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-I6SHIPJ&apos;, ip: &apos;169.254.200.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:62888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4ee82e077f5a120358837c125d401f4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at shoppingWeb.pageObjects.LoginPage.clickLoginRegister(LoginPage.java:54)
+	at shoppingWeb.testCases.TC_LoginTest_001.signinTest(TC_LoginTest_001.java:16)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>shoppingWeb Test on Firefox</h2><h3 id="m1">shoppingWeb.testCases.TC_LoginTest_002#signinTest_002</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

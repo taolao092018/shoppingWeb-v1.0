@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [shoppingWeb]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="shoppingWeb.utilities.report.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="shoppingWeb Test on Chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="shoppingWeb.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="signinTest"/>
+        </methods>
+      </class> <!-- shoppingWeb.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- shoppingWeb Test on Chrome(failed) -->
+</suite> <!-- Failed suite [shoppingWeb] -->

@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00277361-a0cf-4d3f-b352-6f0452695ab0" name="Default Changelist" comment="" />
+    <list default="true" id="00277361-a0cf-4d3f-b352-6f0452695ab0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.24.15.20.38.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.24.15.22.07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.42.09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.43.41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.48.40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.50.44.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.42.29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.42.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.44.00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.44.17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projLog/shoppingWebLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/projLog/shoppingWebLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projWebDriver/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projWebDriver/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/shoppingWeb/testCases/TC_LoginTest_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shoppingWeb/testCases/TC_LoginTest_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_002$TC_LoginTest_001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TakeScrenshotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TakeScrenshotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/ReadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/ReadConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CaptureScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CaptureScreenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CreateReportInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CreateReportInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +60,19 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectId" id="1SDl0LR9YpGjq84V57MB6TFD0Hl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Driver" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,6 +204,17 @@
       <updated>1571105824911</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

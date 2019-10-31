@@ -1,0 +1,9 @@
+shoppingWeb\utilities\report\TestListener.class
+shoppingWeb\testCases\TC_LoginTest_001.class
+shoppingWeb\utilities\ReadConfig.class
+shoppingWeb\pageObjects\LoginPage.class
+shoppingWeb\utilities\report\CreateReportInstance.class
+shoppingWeb\pageObjects\BaseTest.class
+shoppingWeb\utilities\report\CaptureScreenshot.class
+shoppingWeb\testCases\TC_LoginTest_002.class
+shoppingWeb\testCases\TakeScrenshotTest.class

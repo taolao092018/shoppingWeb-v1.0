@@ -54,16 +54,17 @@ public class BaseTest {
            prefs.put("profile.default_content_setting_values.notifications", 1);
            //Create chrome options to set this prefs
            ChromeOptions options = new ChromeOptions();
-           options.setExperimentalOption("prefs", prefs);
-           //options.addArguments("--disable-notifications");
+          options.setExperimentalOption("prefs", prefs);
+          // options.addArguments("--disable-notifications");
            //Help webdriver specifies chrome web driver's location
 
-           driver = new ChromeDriver(options);
+          driver = new ChromeDriver(options);
+          // driver = new ChromeDriver();
            driver.get(baseURL);
            driver.manage().window().maximize();
            driver.manage().deleteAllCookies();
            wait = new WebDriverWait(driver, 100);
-           wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"pp_full_res\"]/iframe")));
+          wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"pp_full_res\"]/iframe")));
            try{
                driver.switchTo().frame(driver.findElement(By.xpath("//*[@id=\"pp_full_res\"]/iframe")));
                driver.findElement(By.xpath("//*[@id=\"no-thanks\"]/a")).click();
@@ -74,13 +75,15 @@ public class BaseTest {
 
        } else if (br.equals("firefox")) {
            System.setProperty("webdriver.gecko.driver", readconfig.getFirefoxPath());
-           FirefoxOptions options = new FirefoxOptions();
+          FirefoxOptions options = new FirefoxOptions();
            options.addPreference("dom.webnotifications.enabled", false);
            driver = new FirefoxDriver(options)  ;
+          // driver = new FirefoxDriver();
            driver.get(baseURL);
            driver.manage().window().maximize();
            driver.manage().deleteAllCookies();
-           wait = new WebDriverWait(driver, 20);
+           wait = new WebDriverWait(driver, 100);
+           driver.switchTo().parentFrame();
 
        } else if (br.equals("ie")) {
            System.setProperty("webdriver.ie.driver", readconfig.getIEPath());

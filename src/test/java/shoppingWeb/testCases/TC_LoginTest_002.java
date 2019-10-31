@@ -5,10 +5,9 @@ import org.testng.annotations.Test;
 import shoppingWeb.pageObjects.BaseTest;
 import shoppingWeb.pageObjects.LoginPage;
 
-public class TC_LoginTest_002 {
-    public class TC_LoginTest_001 extends BaseTest {
+public class TC_LoginTest_002 extends BaseTest {
         @Test
-        public void signinTest()
+        public void signinTest_002()
         {
             test = reporter.createTest("sign-inTest");
             logger.info("URL is opened");
@@ -32,7 +31,7 @@ public class TC_LoginTest_002 {
                 logger.error("Sign-in test failed");
                 Assert.assertFalse(false);
             }
-        };
+        }
     }
 
-}
+
