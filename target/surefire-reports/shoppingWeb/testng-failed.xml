@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="shoppingWeb.utilities.report.TestListener"/>
   </listeners>
-  <test thread-count="5" name="shoppingWeb Test on Chrome(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="shoppingWeb Test on Firefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="shoppingWeb.testCases.TC_LoginTest_001">
+      <class name="shoppingWeb.testCases.TC_LoginTest_002">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="signinTest"/>
+          <include name="signinTest_002"/>
         </methods>
-      </class> <!-- shoppingWeb.testCases.TC_LoginTest_001 -->
+      </class> <!-- shoppingWeb.testCases.TC_LoginTest_002 -->
     </classes>
-  </test> <!-- shoppingWeb Test on Chrome(failed) -->
+  </test> <!-- shoppingWeb Test on Firefox(failed) -->
 </suite> <!-- Failed suite [shoppingWeb] -->

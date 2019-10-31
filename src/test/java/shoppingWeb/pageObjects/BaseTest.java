@@ -70,7 +70,7 @@ public class BaseTest {
                driver.findElement(By.xpath("//*[@id=\"no-thanks\"]/a")).click();
                driver.switchTo().parentFrame();
            } catch (Exception e){
-               System.out.print(e.getMessage());
+               System.out.println(e.getMessage());
            }
 
        } else if (br.equals("firefox")) {
@@ -78,12 +78,17 @@ public class BaseTest {
           FirefoxOptions options = new FirefoxOptions();
            options.addPreference("dom.webnotifications.enabled", false);
            driver = new FirefoxDriver(options)  ;
-          // driver = new FirefoxDriver();
            driver.get(baseURL);
            driver.manage().window().maximize();
            driver.manage().deleteAllCookies();
            wait = new WebDriverWait(driver, 100);
-           driver.switchTo().parentFrame();
+
+           try {
+               driver.switchTo().frame(driver.findElement(By.className("pp_overlay")));
+               driver.switchTo().parentFrame();
+           }catch (Exception e) {
+               System.out.println(e.getMessage());
+           }
 
        } else if (br.equals("ie")) {
            System.setProperty("webdriver.ie.driver", readconfig.getIEPath());

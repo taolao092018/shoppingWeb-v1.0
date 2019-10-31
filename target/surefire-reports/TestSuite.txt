@@ -1,15 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.978 sec <<< FAILURE! - in TestSuite
-signinTest(shoppingWeb.testCases.TC_LoginTest_001)  Time elapsed: 1.094 sec  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a id="AMS_Login" style="display: inline;" href="/login">...</a> is not clickable at point (894, 14). Other element would receive the click: <div class="ppt" style="opacity: 0.0221035; display: block; width: 780px;">...</div>
-  (Session info: chrome=77.0.3865.120)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.95 sec <<< FAILURE! - in TestSuite
+signinTest_002(shoppingWeb.testCases.TC_LoginTest_002)  Time elapsed: 2.886 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: Element <a id="AMS_Login" href="/login"> is not clickable at point (1341,15) because another element <div class="ppt"> obscures it
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-I6SHIPJ', ip: '169.254.200.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:62888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f4ee82e077f5a120358837c125d401f4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2520, moz:profile: C:\Users\Van Anh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f90f2877-0782-4e52-8971-1e1aa43874e3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -29,5 +28,5 @@ Session ID: f4ee82e077f5a120358837c125d401f4
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy26.click(Unknown Source)
 	at shoppingWeb.pageObjects.LoginPage.clickLoginRegister(LoginPage.java:54)
-	at shoppingWeb.testCases.TC_LoginTest_001.signinTest(TC_LoginTest_001.java:16)
+	at shoppingWeb.testCases.TC_LoginTest_002.signinTest_002(TC_LoginTest_002.java:16)
 

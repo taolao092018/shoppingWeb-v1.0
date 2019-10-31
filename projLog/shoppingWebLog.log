@@ -456,3 +456,23 @@
 [INFO ] 2019-10-31 14:16:01.702 [main] BaseTest - Password is set
 [INFO ] 2019-10-31 14:16:01.938 [main] BaseTest - Sign-in button is clicked
 [INFO ] 2019-10-31 14:16:06.059 [main] BaseTest - Sign-in test passed
+[INFO ] 2019-10-31 14:53:52.571 [main] BaseTest - URL is opened
+[INFO ] 2019-10-31 14:53:52.685 [main] BaseTest - Login/Register menu is clicked - to open Login page
+[INFO ] 2019-10-31 14:53:58.550 [main] BaseTest - Username is set
+[INFO ] 2019-10-31 14:53:59.148 [main] BaseTest - Password is set
+[INFO ] 2019-10-31 14:53:59.352 [main] BaseTest - Sign-in button is clicked
+[INFO ] 2019-10-31 14:54:01.782 [main] BaseTest - Sign-in test passed
+[INFO ] 2019-10-31 14:54:22.577 [main] BaseTest - URL is opened
+[INFO ] 2019-10-31 14:54:22.578 [main] BaseTest - Login/Register menu is clicked - to open Login page
+[INFO ] 2019-10-31 14:54:50.824 [main] BaseTest - URL is opened
+[INFO ] 2019-10-31 14:54:50.925 [main] BaseTest - Login/Register menu is clicked - to open Login page
+[INFO ] 2019-10-31 14:54:56.522 [main] BaseTest - Username is set
+[INFO ] 2019-10-31 14:54:56.975 [main] BaseTest - Password is set
+[INFO ] 2019-10-31 14:54:57.199 [main] BaseTest - Sign-in button is clicked
+[INFO ] 2019-10-31 14:55:02.039 [main] BaseTest - Sign-in test passed
+[INFO ] 2019-10-31 14:55:15.517 [main] BaseTest - URL is opened
+[INFO ] 2019-10-31 14:55:15.518 [main] BaseTest - Login/Register menu is clicked - to open Login page
+[INFO ] 2019-10-31 14:55:17.278 [main] BaseTest - Username is set
+[INFO ] 2019-10-31 14:55:17.638 [main] BaseTest - Password is set
+[INFO ] 2019-10-31 14:55:17.813 [main] BaseTest - Sign-in button is clicked
+[INFO ] 2019-10-31 14:55:23.803 [main] BaseTest - Sign-in test passed

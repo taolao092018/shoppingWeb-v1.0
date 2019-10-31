@@ -3,35 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="00277361-a0cf-4d3f-b352-6f0452695ab0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.24.15.20.38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.24.15.22.07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.42.09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.43.41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.48.40.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/reports/Test-Report-19.10.30.15.50.44.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.42.29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.42.51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.44.00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projExtentReport/screenshots/signinTest19.10.30.15.44.17.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projLog/shoppingWebLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/projLog/shoppingWebLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projWebDriver/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projWebDriver/MicrosoftWebDriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shoppingWeb/pageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/shoppingWeb/testCases/TC_LoginTest_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/shoppingWeb/testCases/TC_LoginTest_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-shoppingWeb.testCases.TC_LoginTest_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-shoppingWeb.testCases.TC_LoginTest_001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-shoppingWeb.testCases.TC_LoginTest_002.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-shoppingWeb.testCases.TC_LoginTest_002.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/shoppingWeb/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/shoppingWeb/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/shoppingWeb/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/shoppingWeb/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/shoppingWeb/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/shoppingWeb/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Chrome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Chrome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Chrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Firefox.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Firefox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Firefox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/shoppingWeb Test on Firefox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shoppingWeb/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/pageObjects/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_002$TC_LoginTest_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TC_LoginTest_002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TakeScrenshotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/testCases/TakeScrenshotTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/ReadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/ReadConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CaptureScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CaptureScreenshot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CreateReportInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/CreateReportInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shoppingWeb/utilities/report/TestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

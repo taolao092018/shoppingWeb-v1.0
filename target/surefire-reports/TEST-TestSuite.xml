@@ -1,151 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="7.344" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="12.137" tests="2" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="JOB_NAME" value="shoppingWeb v1-github-maven"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="01936296fac5993e"/>
-    <property name="POM_ARTIFACTID" value="shoppingWeb"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="JUNIT_HOME" value="C:\Software\JUnit4\junit-4.12.jar"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="POM_DISPLAYNAME" value="shoppingWeb"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="java.runtime.version" value="10.0.2+13"/>
-    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\HPE\Unified Functional Testing\"/>
-    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
-    <property name="user.name" value="DESKTOP-I6SHIPJ$"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="shoppingWeb v1-github-maven"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/shoppingWeb%20v1-github-maven/6/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#6"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
-    <property name="PROG27B48B2C052" value="1"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
-    <property name="java.version" value="10.0.2"/>
-    <property name="user.timezone" value="Australia/Sydney"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERNAME" value="DESKTOP-I6SHIPJ$"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="6"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\apache-maven-3.6.2\conf"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="54.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.2"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/shoppingWeb%20v1-github-maven/6/display/redirect"/>
-    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
-    <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="10.0.2+13"/>
-    <property name="user.variant" value=""/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/shoppingWeb%20v1-github-maven/display/redirect"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-10.0.2\"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="SERVICE_ID" value="Jenkins"/>
-    <property name="COMPUTERNAME" value="DESKTOP-I6SHIPJ"/>
-    <property name="user.script" value=""/>
-    <property name="asl.log" value="Destination=file"/>
-    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
-    <property name="POM_GROUPID" value="shoppingWeb"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-shoppingWeb v1-github-maven-6"/>
-    <property name="JENKINS_SERVER_COOKIE" value="01936296fac5993e"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.version.date" value="2018-07-17"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.6.2\/bin;C:\Program Files\Java\jdk-10.0.2\/bin;C:\Program Files\Java\jdk-10.0.2\/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-10.0.2\bin;C:\Android\sdk\tools;C:\Program Files (x86)\HPE\Unified Functional Testing\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
-    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\apache-maven-3.6.2"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.2\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.2/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.2\ C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.35.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 62877"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-10.0.2\/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-10.0.2\bin;C:\Android\sdk\tools;C:\Program Files (x86)\HPE\Unified Functional Testing\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-10.0.2\/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
-    <property name="java.vm.specification.version" value="10"/>
-    <property name="M2_HOME" value="C:\apache-maven-3.6.2\"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
-    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="PATH+MAVEN" value="C:\apache-maven-3.6.2\/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/shoppingWeb%20v1-github-maven/6/"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="user.dir" value="C:\Anh\Automation"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/shoppingWeb%20v1-github-maven/"/>
-    <property name="USERDOMAIN" value="WORKGROUP"/>
-    <property name="MAVEN_HOME" value="C:\apache-maven-3.6.2\"/>
-    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Anh\Automation"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="BUILD_NUMBER" value="6"/>
-    <property name="PROCESSOR_REVISION" value="3a09"/>
-    <property name="ANDROID_HOME" value="C:\Android\sdk"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\shoppingWeb v1-github-maven"/>
-    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Anh\Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VANANH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-10.0.2\bin;C:\Android\sdk\tools;C:\Program Files (x86)\HPE\Unified Functional Testing\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Van Anh\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Van Anh"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="10"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="user.name" value="Van Anh"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.2.3 install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="signinTest" classname="shoppingWeb.testCases.TC_LoginTest_001" time="1.094">
-    <failure message="element click intercepted: Element &lt;a id=&quot;AMS_Login&quot; style=&quot;display: inline;&quot; href=&quot;/login&quot;&gt;...&lt;/a&gt; is not clickable at point (894, 14). Other element would receive the click: &lt;div class=&quot;ppt&quot; style=&quot;opacity: 0.0221035; display: block; width: 780px;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-I6SHIPJ&apos;, ip: &apos;169.254.200.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:62888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f4ee82e077f5a120358837c125d401f4" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a id="AMS_Login" style="display: inline;" href="/login">...</a> is not clickable at point (894, 14). Other element would receive the click: <div class="ppt" style="opacity: 0.0221035; display: block; width: 780px;">...</div>
-  (Session info: chrome=77.0.3865.120)
+  <testcase name="signinTest" classname="shoppingWeb.testCases.TC_LoginTest_001" time="9.251"/>
+  <testcase name="signinTest_002" classname="shoppingWeb.testCases.TC_LoginTest_002" time="2.886">
+    <failure message="Element &lt;a id=&quot;AMS_Login&quot; href=&quot;/login&quot;&gt; is not clickable at point (1341,15) because another element &lt;div class=&quot;ppt&quot;&gt; obscures it&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-I6SHIPJ&apos;, ip: &apos;169.254.200.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.2&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2520, moz:profile: C:\Users\Van Anh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f90f2877-0782-4e52-8971-1e1aa43874e3" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="AMS_Login" href="/login"> is not clickable at point (1341,15) because another element <div class="ppt"> obscures it
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-I6SHIPJ', ip: '169.254.200.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:62888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f4ee82e077f5a120358837c125d401f4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2520, moz:profile: C:\Users\Van Anh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f90f2877-0782-4e52-8971-1e1aa43874e3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -165,17 +91,29 @@ Session ID: f4ee82e077f5a120358837c125d401f4
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy26.click(Unknown Source)
 	at shoppingWeb.pageObjects.LoginPage.clickLoginRegister(LoginPage.java:54)
-	at shoppingWeb.testCases.TC_LoginTest_001.signinTest(TC_LoginTest_001.java:16)
+	at shoppingWeb.testCases.TC_LoginTest_002.signinTest_002(TC_LoginTest_002.java:16)
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2019-10-31 14:15:44.733 [main] BaseTest - URL is opened
-[INFO ] 2019-10-31 14:15:44.804 [main] BaseTest - Login/Register menu is clicked - to open Login page
+    <system-out><![CDATA[Unable to locate frame: a7e4c35a-0d89-4df7-9d25-1a7fa38843b6
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I6SHIPJ', ip: '169.254.200.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2520, moz:profile: C:\Users\Van Anh\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f90f2877-0782-4e52-8971-1e1aa43874e3
+[INFO ] 2019-10-31 14:54:22.577 [main] BaseTest - URL is opened
+[INFO ] 2019-10-31 14:54:22.578 [main] BaseTest - Login/Register menu is clicked - to open Login page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 38759
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Oct 31, 2019 2:15:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1572494045101	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANANH~1\\AppData\\Local\\Temp\\rust_mozprofileMgYUJ6"
+1572494047227	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572494047228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572494047228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572494047229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1572494050918	Marionette	INFO	Listening on port 64507
+1572494051024	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 31, 2019 2:54:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+JavaScript error: https://gum.criteo.com/syncframe?topUrl=www.chemistwarehouse.com.au#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22idfs%22:{%22origin%22:0,%22value%22:null},%22lwid%22:{%22origin%22:3,%22value%22:%225263c7b9-fb30-455f-86d1-16fc17da0aa0%22},%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22pm%22:0,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22chemistwarehouse.com.au%22,%22topUrl%22:%22www.chemistwarehouse.com.au%22,%22uid%22:null,%22version%22:%225_4_0%22}, line 13: SecurityError: The operation is insecure.
+JavaScript error: https://chemistwarehouse.api.useinsider.com/ins.js?id=10002569, line 9: ReferenceError: Notification is not defined
 ]]></system-err>
   </testcase>
-  <testcase name="signinTest_002" classname="shoppingWeb.testCases.TC_LoginTest_002" time="6.25"/>
 </testsuite>
